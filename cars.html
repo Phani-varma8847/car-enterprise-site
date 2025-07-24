@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Our Cars</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚗 Car Enterprise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cars.html">Cars</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="car-list">
+    <h2>Available Cars</h2>
+    <div class="car-card">
+      <h3>🚙 SUV - Toyota Fortuner</h3>
+      <p>₹4500/day</p>
+    </div>
+    <div class="car-card">
+      <h3>🚗 Sedan - Honda City</h3>
+      <p>₹3000/day</p>
+    </div>
+    <div class="car-card">
+      <h3>🚕 Hatchback - Maruti Swift</h3>
+      <p>₹1800/day</p>
+    </div>
+  </section>
+
+  <section class="booking-form">
+    <h2>Book Your Car</h2>
+    <form id="bookForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="car" placeholder="Car Model" required />
+      <input type="date" id="date" required />
+      <button type="submit">Submit Booking</button>
+    </form>
+    <div id="message"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Car Enterprise. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
